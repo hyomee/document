@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T04:26:01.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hwjBqwfqm1CqDWTK585b" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T04:30:02.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ll2rvPcVYtSXm-_u5lxG" version="22.1.18" type="github">
   <diagram name="페이지-1" id="HAdsagcqMK5C1EckOBzp">
     <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="4qFjMlLQ6r4KH2gJYc2y-23" value="Buffer&lt;br&gt;Write" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="361" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4qFjMlLQ6r4KH2gJYc2y-24" value="IO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="50" y="85" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4qFjMlLQ6r4KH2gJYc2y-25" value="NIO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="285" y="85" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
