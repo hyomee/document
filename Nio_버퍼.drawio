@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T15:00:27.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="sbOLUNLc_QHVz5Pao3Lo" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T15:10:43.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Cty7f0nyfr0aQxdtjRPW" version="22.1.18" type="github">
   <diagram name="페이지-1" id="o3a6fXnAqblbPJa_n0Ni">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wKFeatO1WGUtqjEAwTV8-1" target="wKFeatO1WGUtqjEAwTV8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-1" value="Buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wKFeatO1WGUtqjEAwTV8-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="60" />
+              <mxPoint x="320" y="60" />
+              <mxPoint x="320" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-2" value="Chennel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-5" value="1. 버퍼에 쓰기&lt;br&gt;&amp;nbsp;-&amp;nbsp; read(buffer)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wKFeatO1WGUtqjEAwTV8-1" target="wKFeatO1WGUtqjEAwTV8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="384" y="60" />
+              <mxPoint x="440" y="60" />
+              <mxPoint x="440" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-8" value="2. 읽기 모드로 변경&lt;br&gt;&amp;nbsp;-&amp;nbsp;buffer&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;e3a23e3734384b21b1582becb50624c1:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;r-crgep1 r-jfrpv2&quot; data-offset-key=&quot;e3a23e3734384b21b1582becb50624c1:2&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;function&quot;&gt;flip&lt;/span&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmJ1Zi5mbGlwKCklMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI1MTFjNzQ4Mzc4N2Q0NTRlOWUzNzgwY2U0YWRiM2JiZiUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmNiZmZhZDFjMWNhYTQyYTZiZmNlYzdlN2E0NGJhZTFjJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMTk1N2ExNTk5NTdhNDRhYmI5MTYyYjcwMTU3ZDY4YWElMjIlN0Q=&quot; class=&quot;r-crgep1&quot; data-offset-key=&quot;e3a23e3734384b21b1582becb50624c1:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-11" value="Java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-13" value="&lt;div class=&quot;css-175oi2r r-6koalj r-18u37iz&quot;&gt;&lt;div class=&quot;css-1rynq56 r-s8bhmr r-i023vh r-yrgyi6 r-uibjmv r-1b43r93 r-majxgm r-hbpseb r-37p410 r-1xnzce8&quot; dir=&quot;auto&quot;&gt;3. 버퍼에 있는 내용 읽기 &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;css-175oi2r r-6koalj r-18u37iz&quot;&gt;&lt;div class=&quot;r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010&quot;&gt;&lt;div style=&quot;transition-duration: 0.15s;&quot; class=&quot;css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1janqcz&quot; tabindex=&quot;0&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;css-1rynq56 r-s8bhmr r-i023vh r-yrgyi6 r-uibjmv r-1b43r93 r-majxgm r-hbpseb r-37p410 r-1xnzce8&quot; dir=&quot;auto&quot;&gt;&lt;span data-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b&quot;&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:0&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;&amp;nbsp;- (&lt;/span&gt;&lt;span class=&quot;r-crgep1 r-i8xx8x&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:2&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;)&lt;/span&gt;&lt;span data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:3&quot;&gt; buf&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:4&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;r-crgep1 r-jfrpv2&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:5&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;a9b0eef7b7634b0dbe68249d9ff1a00b:6&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMiUyRiUyRiUyMCVFQiVCMiU4NCVFRCU4RCVCQyVFQyU5NyU5MCUyMCVFQyU5RSU4OCVFQiU4QSU5NCUyMCVFQiU4MiVCNCVFQyU5QSVBOSUyMCVFQyU5RCVCRCVFQSVCOCVCMCUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjZmODIwZGRkMzY3NDQ3Nzc5YmM5NzMyYTQ1NmQ4YmY4JTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMDg3YWFmZmQ4ODk0NDQyZWFiNWRlNjMwZDE5Y2JmMzUlMjIlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMihjaGFyKSUyMGJ1Zi5nZXQoKSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmE5YjBlZWY3Yjc2MzRiMGRiZTY4MjQ5ZDlmZjFhMDBiJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMDI0Mzk1NWI3ODBkNDk0NmEzOGZiY2M3MjI1OTE2NjElMjIlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkNoYXJCdWZmZXIlMjBjaGFyQnVmZmVyJTIwJTNEJTIwY2hhcnNldC5kZWNvZGUoYnVmKSUzQiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjM5NDUzZjMzNzg1ZjQwMGViOGI5MWFmNTgzYjk2N2FhJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyYmY2N2U1Y2VhZmY1NGNjMDg1ZmE4OWQ0YmViYmU5MTQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJlZWIwYjJjZmViOTU0YmU0YWNjNDkyYWI4MmQ3MTdhYiUyMiU3RA==&quot; class=&quot;css-175oi2r r-6koalj r-18u37iz&quot;&gt;&lt;div class=&quot;r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010&quot;&gt;&lt;div style=&quot;transition-duration: 0.15s;&quot; class=&quot;css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1janqcz&quot; tabindex=&quot;0&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;css-1rynq56 r-s8bhmr r-i023vh r-yrgyi6 r-uibjmv r-1b43r93 r-majxgm r-hbpseb r-37p410 r-1xnzce8&quot; dir=&quot;auto&quot;&gt;&lt;span data-key=&quot;39453f33785f400eb8b91af583b967aa&quot;&gt;&lt;span class=&quot;r-crgep1 r-3hw5f6&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:0&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;class-name&quot;&gt;&amp;nbsp;- CharBuffer&lt;/span&gt;&lt;span data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:1&quot;&gt; charBuffer &lt;/span&gt;&lt;span class=&quot;r-crgep1 r-d822y2&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:2&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;operator&quot;&gt;=&lt;/span&gt;&lt;span data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:3&quot;&gt; charset&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:4&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;r-crgep1 r-jfrpv2&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:5&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;function&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:6&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;(&lt;/span&gt;&lt;span data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:7&quot;&gt;buf&lt;/span&gt;&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;39453f33785f400eb8b91af583b967aa:8&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wKFeatO1WGUtqjEAwTV8-1" target="wKFeatO1WGUtqjEAwTV8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394" y="90" as="sourcePoint" />
+            <mxPoint x="424" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="110" />
+              <mxPoint x="440" y="150" />
+              <mxPoint x="384" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-15" value="4. 쓰기 모드로 변경&lt;br&gt;&amp;nbsp;-&amp;nbsp;buf&lt;span class=&quot;r-crgep1&quot; data-offset-key=&quot;36b6eedf2e08403fbff264c005349d0f:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;r-crgep1 r-jfrpv2&quot; data-offset-key=&quot;36b6eedf2e08403fbff264c005349d0f:2&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;function&quot;&gt;clear&lt;/span&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmJ1Zi5jbGVhcigpJTNCJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyM2JmZTExZmRiYjY1NDkzMWIxYjk1YzljYzNhYjYyNTQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIyZTg4YjU5YzlkZWQ0ZjU4ODg2MzMzMDkxMzUzMTA5ZSUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjIxMTVkNWJiODc1YTQyODdiNDBjNzY3ZjNlMWViYTQ4JTIyJTdE&quot; class=&quot;r-crgep1&quot; data-offset-key=&quot;36b6eedf2e08403fbff264c005349d0f:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;punctuation&quot;&gt;();&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.211;entryY=0.996;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="wKFeatO1WGUtqjEAwTV8-2" target="wKFeatO1WGUtqjEAwTV8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="90" as="sourcePoint" />
+            <mxPoint x="364" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKFeatO1WGUtqjEAwTV8-17" value="5. 버퍼에 쓰기&lt;br&gt;&amp;nbsp;-&amp;nbsp; read(buffer)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
